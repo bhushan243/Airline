@@ -1,0 +1,17 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block body %}
+<div class="container" style = "margin-top : 150px">
+      <h2 class = text-center style = "font-family : 'Monotype' ; color : black;font-weight:bold;margin-right:14rem">About Us</h2>
+      <div class="row">
+          <div class="col-sm-4">
+              <img src="{% static 'images/air1.jpg' %}" width=300 height = 200 class="img-responsive">
+          </div>
+          <div class="col-sm-8" style = "font-weight : bold ; margin-top : 30px">
+            The days of having to visit a local travel agency and choose a single ticket when purchasing flights are long gone. Today, purchasing airline tickets online is much simpler for consumers. The benefits include quick and simple methods to compare costs across multiple airlines and the capability for users to print boarding permits at home. You have the freedom to compare prices when you purchase a flight online. When making flight reservations through a single travel agent or by calling an airline, travelers are not afforded this level of flexibility. Customers can research numerous airlines before choosing one by purchasing the ticket online.
+          </div>
+      </div>
+  </div>
+  
+
+{% endblock %}
